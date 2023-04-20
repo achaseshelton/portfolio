@@ -1,57 +1,36 @@
-# PAPA React JS Resume Starter Pack and Digital Portfolio
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![PAPA React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "PAPA React JS Portfolio Stater Pack ")
+## Getting Started
 
-### <a href="https://resume-portfolio-starter-pack.herokuapp.com">LIVE DEMO</a>
+First, run the development server:
 
-## Resume Starter Pack Description
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-This portfolio starter pack is made using React. The data on the portfolio is directly linked to a JSON file. Any changes to the portfolio can be made in the JSON file. The changes will then be reflected on to the portfolio. This allows you to customize your own personal portfolio that can be used for applying to jobs or other personal uses.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 1. Make sure you have NODE installed!
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-Firstly, you will need to download the latest version of Node by <a href="https://nodejs.org/en/download/">CLICKING HERE</a>
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## 2. Clone the repo!
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Next, you will need to run the following command in the Terminal to clone the repo onto your machine.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```git clone https://github.com/sonnysangha/Resume-Portfolio-Starter-pack.git```
+## Learn More
 
-## 3. Install Dependancies
+To learn more about Next.js, take a look at the following resources:
 
-Next, you need to install all the dependancies using:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```npm install```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Once this is done, you can start the app with:
+## Deploy on Vercel
 
-```npm start```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 4. Fill in your personal info
-
-To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
-
-## 5. (OPTIONAL) Replacing images and/or fonts
-
-If you want to display your own pictures then you have to replace the files at these locations: public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico. FILE NAMES MUST NOT BE CHANGED else the code referencing these images will no longer work.
-
-## 7. Finalising Resume
-
-Once all the formatting and data input is finalised, run `npm run build`. This will create a dedicated build folder.
-
-## 8. Host Resume Online
-
-1) Open the build folder in the finder screen
-2) Go to <a href="https://www.netlify.com/">Netlify</a> and set up a profile
-3) Go to the 'Sites Tab'
-4) Simply Drag and drop the 'Build' Folder into the designated upload space
-5) The app will begin deploying & the deployment URL will be presented!
-
-🚀 BOOM, you are now LIVE!!!
-
-## Credits
-
-##### Original Idea
-
-<a href="https://github.com/tbakerx/react-resume-template/blob/master/README.md">Inspiration from Tim Baker (tbakerx)</a>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
